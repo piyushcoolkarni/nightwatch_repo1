@@ -2,7 +2,7 @@ pipeline{
   stages{
     stage("stage1"){
       steps{
-        echo 'echoing step1',
+        echo 'echoing step1'
         print("Printing step1")
       }
     }
