@@ -1,15 +1,15 @@
-pipeline
-{
-  stages
-  {
-    stage("Step1")
-    steps{
-      echo 'print Step1',
-      print("Running stage1")
+pipeline{
+  stages{
+    stage("stage1"){
+      steps{
+        echo 'echoing step1',
+        print("Printing step1")
+      }
     }
-    stage("Step 2")
-    steps{
-      echo 'print Step2'
+    stage("stage2"){
+      steps{
+        echo 'echoing step2'
+      }
     }
   }
 }
