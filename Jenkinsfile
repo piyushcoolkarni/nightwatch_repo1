@@ -1,13 +1,19 @@
 pipeline{
-  stages{
-    stage("stage1"){
-      steps{
+  
+  stages
+  {
+    stage("stage1")
+    {
+      steps
+      {
         echo 'echoing step1'
         print("Printing step1")
       }
     }
-    stage("stage2"){
-      steps{
+    stage("stage2")
+    {
+      steps
+      {
         echo 'echoing step2'
       }
     }
