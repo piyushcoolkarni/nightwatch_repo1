@@ -1,5 +1,5 @@
-pipeline{
-  
+pipeline
+{ 
   stages
   {
     stage("stage1")
